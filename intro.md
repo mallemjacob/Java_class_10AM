@@ -1,0 +1,71 @@
+# Java Programming Language
+
+## Language
+
+1 + 1
+distance between guntur and vijayawada
+
+communication between human beings
+Ex: Telugu, English, German, French
+
+## Programming Language
+
+communication between humans and computers
+Ex: Python, Java, Javascript
+
+## Java Programming Language
+
+develop software
+games
+web developement
+enterprise software
+
+## To run java in our computer
+
+1. Java software - jdk - java development kit
+2. Vscode
+
+We write code in Vscode text editor ---> JDK run the code ---> Produces Output
+
+1. Write code in a file with .java extension
+2. The filename must match the class name.
+3. Compile the java code with `javac HelloWorld.java` command
+4. It complies and produces `HelloWorld.class` file.
+5. We execute the file with the command `java HelloWorld`
+
+    HelloWorld.java ---> HelloWorld.class --> Output
+
+English - Hello, Cat, Welcome to Java programming.
+French - Bonjour
+German - Guten Morgen, Katze
+
+Java - "Hello", "Cat", "Welcome to Java programming."
+
+Human Language - Grammar - rules
+
+```
+park am the to going I
+I am going to the park.
+```
+
+Programmanig Language - Syntax - rules
+
+```java
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello, World!");
+    System.out.println("Welcome to Java programming.");
+  }
+}
+```
+
+## Language - words, numbers
+
+Words ---> hi, there, good moring, class, bus
+
+Numbers ---> 1, 2, 34, 3.14, 2.1
+
+## Data types
+
+1. Strings ---> Words are called Strings in Programming Language.
+2. Integers --> Regular numbers without decimal point.
