@@ -69,3 +69,38 @@ Numbers ---> 1, 2, 34, 3.14, 2.1
 
 1. Strings ---> Words are called Strings in Programming Language.
 2. Integers --> Regular numbers without decimal point.
+
+## Variable
+
+It provides meaningful labels to our data.
+It stores date.
+
+int computer_mouse = 10;
+int age = 32;
+double PI = 3.14;
+
+int age = 32;
+int price = 100;
+
+## Data types
+
+1. Strings - "Hello", "Welcome to Java programming."
+2. Integers - 1, 2, 34, 100
+3. Double - 3.14, 2.1
+
+## String concatenation
+
+String name = "Alice";
+String greeting = "Hello, " + name + "!";
+System.out.println(greeting);
+
+## Arithemric Operators
+
++, -, \*, /, %
+
+value operator value
+1 + 2
+2 - 1
+3 / 3
+4 \* 2
+10 % 5
