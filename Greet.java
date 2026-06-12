@@ -35,5 +35,28 @@ public class Greet {
     System.out.println(1.1 / 1.1);
     System.out.println(1.1 % 1.1);
 
+
+    // Character Operations
+    char grade = 'A';
+    System.out.println("Your grade is: " + grade);
+
+
+    // Boolean Operations
+    boolean is_eligible_to_vote = true;
+    System.out.println("Are you eligible to vote? " + is_eligible_to_vote);
+
+    // Comparison Operators
+    System.out.println(5 > 3); // true
+    System.out.println(5 < 3); // false
+    System.out.println(5 == 5); // true
+    System.out.println(5 != 3); // true
+
+    System.out.println("mouse" == "mouse"); // true
+
+    int age_of_mouse = 20;
+
+    boolean is_eligible_to_vote2 = (age_of_mouse >= 18);
+
+    System.out.println("Are you eligible to vote? " + is_eligible_to_vote2);
   } 
 }

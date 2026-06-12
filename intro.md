@@ -75,7 +75,7 @@ Numbers ---> 1, 2, 34, 3.14, 2.1
 It provides meaningful labels to our data.
 It stores date.
 
-int computer_mouse = 10;
+int computer_mouse_price_in_dollars = 10;
 int age = 32;
 double PI = 3.14;
 
@@ -87,6 +87,8 @@ int price = 100;
 1. Strings - "Hello", "Welcome to Java programming."
 2. Integers - 1, 2, 34, 100
 3. Double - 3.14, 2.1
+4. Character - 'a', 'b', 'c'
+5. Boolean - true, false
 
 ## String concatenation
 
@@ -94,7 +96,7 @@ String name = "Alice";
 String greeting = "Hello, " + name + "!";
 System.out.println(greeting);
 
-## Arithemric Operators
+## Arithmetic Operators
 
 +, -, \*, /, %
 
@@ -104,3 +106,16 @@ value operator value
 3 / 3
 4 \* 2
 10 % 5
+
+## Comparison Operators
+
+==, !=, <, >
+
+"mouse" == "mouse"
+
+2 == 2
+2 != 3
+2 < 3
+3 > 2
+
+We use comparison operators to generate true or false values.
