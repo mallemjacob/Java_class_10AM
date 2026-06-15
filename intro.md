@@ -42,13 +42,12 @@ German - Guten Morgen, Katze
 Java - "Hello", "Cat", "Welcome to Java programming."
 
 Human Language - Grammar - rules
+Programming Language - Syntax - rules
 
 ```
 park am the to going I
 I am going to the park.
 ```
-
-Programmanig Language - Syntax - rules
 
 ```java
 public class HelloWorld {
@@ -109,7 +108,7 @@ value operator value
 
 ## Comparison Operators
 
-==, !=, <, >
+==, !=, <, >, >=, <=
 
 "mouse" == "mouse"
 
@@ -117,5 +116,51 @@ value operator value
 2 != 3
 2 < 3
 3 > 2
+2 >= 2
+3 <= 3
 
 We use comparison operators to generate true or false values.
+
+## Boolean Operators
+
+We use boolean operators to combine multiple conditions.
+
+you are allowed in class if you come before 10 o'clock and also if you complete the homework else you are not allowed in class.
+
+int class_time = 10
+int student_arrival_time = 9
+
+boolean homework_completed = true
+
+boolean is_allowed = student_arrival_time < class_time && homework_completed == true;
+
+## If, Else If, Else
+
+if (condition) {
+// code to execute if condition is true
+} else if (another_condition) {
+// code to execute if another_condition is true
+} else {
+// code to execute if none of the above conditions are true
+}
+
+## Truth table
+
+### AND
+
+true && true = true
+true && false = false
+false && true = false
+false && false = false
+
+## OR
+
+true || true = true
+true || false = true
+false || true = true
+false || false = false
+
+## NOT
+
+!true = false
+!false = true
