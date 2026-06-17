@@ -127,7 +127,7 @@ We use boolean operators to combine multiple conditions.
 
 you are allowed in class if you come before 10 o'clock and also if you complete the homework else you are not allowed in class.
 
-int class_time = 10
+int class_time = 10;
 int student_arrival_time = 9
 
 boolean homework_completed = true
@@ -164,3 +164,9 @@ false || false = false
 
 !true = false
 !false = true
+
+## Loops
+
+We use loops to repeat a block of code multiple times.
+
+break statement is used to exit the loop when a certain condition is met.
