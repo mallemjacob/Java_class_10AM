@@ -167,6 +167,9 @@ false || false = false
 
 ## Loops
 
+1. for loop = We use for loop when we know the number of iterations in advance.
+2. while loop = We use while loop when we don't know the number of iterations in advance.
+
 We use loops to repeat a block of code multiple times.
 
 break statement is used to exit the loop when a certain condition is met.
