@@ -172,4 +172,10 @@ false || false = false
 
 We use loops to repeat a block of code multiple times.
 
+## break
+
 break statement is used to exit the loop when a certain condition is met.
+
+## continue
+
+It is used to skip a loop

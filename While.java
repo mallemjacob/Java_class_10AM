@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class While {
   public static void main(String[] args){
@@ -8,18 +7,27 @@ public class While {
     //   i = i + 1;
     // }
 
-    Scanner scanner = new Scanner(System.in);
+    // Scanner scanner = new Scanner(System.in);
+
+    // while (true){
+    //   System.out.println("Enter the number: ");
+    //   int firstNumber = scanner.nextInt(); //0
+    //   if (firstNumber == 0){
+    //     break;
+    //   } else {
+    //     System.out.println("You entered: " + firstNumber);
+    //   }
+    // }
+
+    // System.out.println("The end");
+
 
     while (true){
-      System.out.println("Enter the number: ");
-      int firstNumber = scanner.nextInt(); //0
-      if (firstNumber == 0){
-        break;
-      } else {
-        System.out.println("You entered: " + firstNumber);
-      }
+      System.out.println("Hello world");
+      break;
     }
 
     System.out.println("The end");
+
   }
 }
