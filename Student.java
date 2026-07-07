@@ -1,5 +1,6 @@
 public class Student {
   public static void main(String[] args){
+
       int class_time = 10;
       int student_arrival_time = 9;
 

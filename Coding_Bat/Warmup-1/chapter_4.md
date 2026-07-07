@@ -118,6 +118,10 @@ Example:
 
 ```java
 Student s1 = new Student();
+Student s2 = new Student();
+Student s3 = new Student();
+Student s10000 = new Student();
+
 ```
 
 This creates one student.
