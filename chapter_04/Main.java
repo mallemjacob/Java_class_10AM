@@ -14,13 +14,13 @@ class Book {
 public class Main {
     public static void main(String[] args){
 
-        // Student s1 = new Student();
-        // s1.name = "Jake";
-        // s1.age = 26;
+        Student s1 = new Student();
+        s1.name = "Jake";
+        s1.age = 26;
 
-        // Student s2 = new Student();
-        // s2.name = "John";
-        // s2.age = 30;
+        Student s2 = new Student();
+        s2.name = "John";
+        s2.age = 30;
 
 
         // for (int i = 0; i < 10; i++){

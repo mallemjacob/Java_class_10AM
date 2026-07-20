@@ -32,6 +32,8 @@ Library
 Department
 ```
 
+real world entity ---> Table class -- new table1, new table2
+
 Each becomes its own class.
 
 This makes programs:
@@ -281,6 +283,8 @@ For beginners:
 # 3. Inheritance
 
 ## Why Inheritance?
+
+Humans ---> Indians, Americans
 
 Suppose:
 
