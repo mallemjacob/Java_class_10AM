@@ -469,6 +469,12 @@ Animal
 Mammal
   ↑
  Dog
+
+Person
+  ↑
+Student
+  ↑
+InterStudent
 ```
 
 ```java

@@ -27,6 +27,12 @@ public class Functions {
 
 }
 
+  public static int add(int a, int b, int c) {
+
+    return a + b;
+
+}
+
 
   public static void adder(Integer num1, Integer num2) {
       System.out.println(num1 + num2);
