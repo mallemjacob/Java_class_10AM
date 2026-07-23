@@ -750,6 +750,8 @@ The loop does not need separate logic for every animal type.
 
 Abstraction means:
 
+input ---> function ---> output
+
 > Show what an object can do while hiding unnecessary implementation details.
 
 Consider an ATM.
@@ -935,7 +937,7 @@ It does not need to know how each payment type works internally.
 
 # Abstract Class vs Interface
 
-| Abstract class                    | Interface                                                   |
+| Abstract class Interface          |
 | --------------------------------- | ----------------------------------------------------------- |
 | Used with `extends`               | Used with `implements`                                      |
 | Can contain instance fields       | Usually represents a behavior contract                      |
@@ -963,6 +965,14 @@ Serializable
 ```
 
 An interface is suitable because unrelated classes may share the same capability.
+
+pay
+refund
+cancel order
+place order
+billing address
+shipping address
+phone number
 
 ---
 
@@ -1013,11 +1023,7 @@ class Developer extends Employee {
 
     private String programmingLanguage;
 
-    public Developer(
-            String name,
-            double salary,
-            String programmingLanguage
-    ) {
+    public Developer(String name, double salary, String programmingLanguage) {
         super(name, salary);
         this.programmingLanguage = programmingLanguage;
     }
